@@ -1,0 +1,15 @@
+4bit_registerFileALU  (DONE)
+4-bit_register 	      (DONE)
+1-bit_memorycell(D)   (DoNE)
+4bit_multiplexer(6x2) (UNECISSARY?)
+4bit_logic_ops        (UNECISSARY)
+4bit_iregister	      (DONE)
+4bit_FullAdder        (UNECISSARY)
+4bit_ALU	      (DONE)
+1bit_fullAdder        (UNECISSARY)
+4bit_setLessThanFlag  (DONE)
+4bit_subtractor	      (UNECISSARY)
+4bit_zeroflag	      (UNECISSARY)
+      
+
+
