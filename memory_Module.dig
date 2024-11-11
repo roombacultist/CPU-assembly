@@ -8,14 +8,28 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Address</string>
+          <string>Clear</string>
         </entry>
         <entry>
           <string>Bits</string>
           <int>4</int>
         </entry>
       </elementAttributes>
-      <pos x="80" y="-160"/>
+      <pos x="-180" y="-320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Clock</string>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="-140"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -29,103 +43,407 @@
           <int>4</int>
         </entry>
       </elementAttributes>
-      <pos x="80" y="-80"/>
+      <pos x="-160" y="-20"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Read</string>
+          <string>SP</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>2</int>
         </entry>
       </elementAttributes>
-      <pos x="80" y="0"/>
+      <pos x="-100" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Write</string>
+          <string>A</string>
         </entry>
       </elementAttributes>
-      <pos x="80" y="80"/>
+      <pos x="160" y="600"/>
     </visualElement>
     <visualElement>
-      <elementName>Register</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>4</int>
-        </entry>
-      </elementAttributes>
-      <pos x="320" y="-120"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
+      <elementName>4-bit_register.dig</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>data</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>4</int>
+          <string>Register 0</string>
         </entry>
       </elementAttributes>
-      <pos x="500" y="-100"/>
+      <pos x="800" y="-260"/>
     </visualElement>
     <visualElement>
-      <elementName>Clock</elementName>
+      <elementName>4-bit_register.dig</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>clock</string>
+          <string>Register 1</string>
         </entry>
       </elementAttributes>
-      <pos x="80" y="-40"/>
+      <pos x="800" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4-bit_register.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Register 2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4-bit_register.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Register 3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4-bit_register.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Register 4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4-bit_register.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Register 5</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4-bit_register.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Register 6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4-bit_register.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Register 7</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4-bit_register.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Register 8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4-bit_register.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Register 9</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="1000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4-bit_register.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Register 10</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="1160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4-bit_register.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Register 11</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="1300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4-bit_register.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Register 12</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="1440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4-bit_register.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Register 13</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="1580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4-bit_register.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Register 14</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="1700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4-bit_register.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Register 15</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="1840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Demultiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Selector Bits</string>
+          <int>4</int>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>2</int>
+        </entry>
+      </elementAttributes>
+      <pos x="260" y="120"/>
     </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="80" y="0"/>
-      <p2 x="300" y="0"/>
+      <p1 x="620" y="1600"/>
+      <p2 x="800" y="1600"/>
     </wire>
     <wire>
-      <p1 x="380" y="-100"/>
-      <p2 x="500" y="-100"/>
+      <p1 x="620" y="1860"/>
+      <p2 x="800" y="1860"/>
     </wire>
     <wire>
-      <p1 x="280" y="-100"/>
-      <p2 x="320" y="-100"/>
+      <p1 x="720" y="200"/>
+      <p2 x="800" y="200"/>
     </wire>
     <wire>
-      <p1 x="80" y="-40"/>
-      <p2 x="280" y="-40"/>
+      <p1 x="540" y="-140"/>
+      <p2 x="620" y="-140"/>
     </wire>
     <wire>
-      <p1 x="280" y="-120"/>
-      <p2 x="320" y="-120"/>
+      <p1 x="720" y="-80"/>
+      <p2 x="800" y="-80"/>
     </wire>
     <wire>
-      <p1 x="80" y="-160"/>
-      <p2 x="280" y="-160"/>
+      <p1 x="620" y="340"/>
+      <p2 x="800" y="340"/>
     </wire>
     <wire>
-      <p1 x="300" y="-80"/>
-      <p2 x="320" y="-80"/>
+      <p1 x="160" y="600"/>
+      <p2 x="280" y="600"/>
     </wire>
     <wire>
-      <p1 x="280" y="-100"/>
-      <p2 x="280" y="-40"/>
+      <p1 x="180" y="280"/>
+      <p2 x="260" y="280"/>
     </wire>
     <wire>
-      <p1 x="280" y="-160"/>
-      <p2 x="280" y="-120"/>
+      <p1 x="720" y="-220"/>
+      <p2 x="800" y="-220"/>
     </wire>
     <wire>
-      <p1 x="300" y="-80"/>
-      <p2 x="300" y="0"/>
+      <p1 x="620" y="1180"/>
+      <p2 x="800" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="480"/>
+      <p2 x="800" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="-100"/>
+      <p2 x="800" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="740"/>
+      <p2 x="800" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="40"/>
+      <p2 x="800" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="1320"/>
+      <p2 x="800" y="1320"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="360"/>
+      <p2 x="800" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="620"/>
+      <p2 x="800" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="-240"/>
+      <p2 x="800" y="-240"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="880"/>
+      <p2 x="800" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="-100" y="180"/>
+      <p2 x="180" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="180"/>
+      <p2 x="800" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="1460"/>
+      <p2 x="800" y="1460"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="1720"/>
+      <p2 x="800" y="1720"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="1020"/>
+      <p2 x="800" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="60"/>
+      <p2 x="800" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="-180" y="-320"/>
+      <p2 x="720" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="-320"/>
+      <p2 x="720" y="-220"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="360"/>
+      <p2 x="720" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="-220"/>
+      <p2 x="720" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="-80"/>
+      <p2 x="720" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="60"/>
+      <p2 x="720" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="200"/>
+      <p2 x="720" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="180"/>
+      <p2 x="180" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="440"/>
+      <p2 x="280" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="-240"/>
+      <p2 x="620" y="-140"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="620"/>
+      <p2 x="620" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="880"/>
+      <p2 x="620" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="-140"/>
+      <p2 x="620" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="1020"/>
+      <p2 x="620" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="-100"/>
+      <p2 x="620" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="1180"/>
+      <p2 x="620" y="1320"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="40"/>
+      <p2 x="620" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="1320"/>
+      <p2 x="620" y="1460"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="180"/>
+      <p2 x="620" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="1460"/>
+      <p2 x="620" y="1600"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="1720"/>
+      <p2 x="620" y="1860"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="1600"/>
+      <p2 x="620" y="1720"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="340"/>
+      <p2 x="620" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="480"/>
+      <p2 x="620" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="740"/>
+      <p2 x="620" y="880"/>
     </wire>
   </wires>
   <measurementOrdering/>
