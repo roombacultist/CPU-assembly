@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>4bit_ALU.dlogic.dig</elementName>
+      <elementAttributes/>
+      <pos x="260" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4bit_registerFileALU.dig</elementName>
+      <elementAttributes/>
+      <pos x="420" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>programCounter.dig</elementName>
+      <elementAttributes/>
+      <pos x="580" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4bit_Instruction_Register.dig</elementName>
+      <elementAttributes/>
+      <pos x="360" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>CU.dig</elementName>
+      <elementAttributes/>
+      <pos x="400" y="600"/>
+    </visualElement>
+  </visualElements>
+  <wires/>
+  <measurementOrdering/>
+</circuit>
