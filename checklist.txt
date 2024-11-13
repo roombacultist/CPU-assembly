@@ -10,6 +10,7 @@
 4bit_setLessThanFlag  (DONE)
 4bit_subtractor	      (UNECISSARY)
 4bit_zeroflag	      (UNECISSARY)
-      
+ALUAssign3Step2       (DONE, RENAMED TO ALU_DataPathAssembly)
+
 
 
